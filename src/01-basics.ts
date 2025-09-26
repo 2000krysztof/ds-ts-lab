@@ -46,9 +46,21 @@ const colleague3 = {
   },
 };
 
+const ovelapingColleague : Colleague = {
+  name: "Jane Costello",
+  department: "Forensics",
+  contact: {
+    email: "dos@company.com",
+    extension: 129,
+  },
+};
+
 export const colleagues : ColleagueHistory = {
-  current: [colleague1, colleague2, colleague3],
+  current: [colleague1, colleague2, colleague3, ovelapingColleague],
   former: [],
 };
+
+
+
 
 //console.log(colleagues.current[0]);
